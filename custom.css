@@ -1,17 +1,100 @@
 
+body{
+	background-color: black !important;
+}
 .text-center {
 	text-align: center;
 }
 .sub-heading{
 	color: #B64A1A;
 }
+.home-page{
+	/*background: url(#);*/
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 50px 0;
+}
+.about-page{
+	background-color: black;
+}
+.redirect-button{
+	background: url(button.png);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border: none;
+	margin: 50px 0;
+	color: white;
+}
+.table{
+	border: none;
+	border-collapse: separate;
+	border-spacing: 15px;
+	margin-top: 40px;
+}
+.table td{
+	border: none!important;
+}
 .gallery-page{
 	display: table;
 	text-align: center;
+    background-color: #923107;
+    padding: 30px;
+}
+.gallery-bg{
+	background: url(Gallery-bg.jpg);
+	background-position: top;
+	background-size: cover;
+	width: 100%;
+	height: 20vh;
+}
+td{
+	height: 180px;
+	border-radius: 5px;
+	background-color: #B64A1A;
 }
 .gallery-btn{
 	display: table-cell;
 	vertical-align: bottom;
 	background-color: #B64A1A;
+	color: white;
+}
+.gallery-btn:hover{
+	background-color: #6D2C0F;
+}
+.contact-page{
+	color: white;
+	padding: 50px 0;
+	padding-top: 400px;
+
+}
+.contact-bg{
+	background: url(Contact-bg.jpg);
+	background-position: right;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 80vh;
+    background-color: #3c3938;
+}
+.facebook{
+	margin-left: 35px;
+	color: white;
+	text-decoration: none;
+}
+.facebook:hover{
+	color: white;
+	text-decoration: underline;
+}
+#facebook-icon{
+	max-width: 50px;
+	margin-left: 40px;
+}
+.facebook-tag{
+	padding-top: 15px;
+}
+.instagram-tag{
+	margin-left: 90px;
 	color: white;
 }
