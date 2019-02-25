@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $("a").on('click', function (event) {
         if (this.hash !== "") {
@@ -11,11 +10,13 @@ $(document).ready(function () {
                     window.location.hash = hash;
                 });
             }
-            $('html, body').animate({
-                scrollTop: ($(hash).offset().top)
-            }, 800, function () {
-                window.location.hash = hash;
-            });
+            else{
+                $('html, body').animate({
+                    scrollTop: ($(hash).offset().top)
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            }
         }
     });
 
