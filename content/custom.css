@@ -143,7 +143,29 @@ td:before { content: attr(data-title); }
 	margin-left: 90px;
 	color: white;
 }
-
+@media only screen and (max-width: 575px){
+	.contact-page{
+		padding: 0;
+		padding-top: 500px;
+	}
+	.facebook{
+		margin-left: 5px;
+	}
+	#facebook-icon{
+		margin-left: 5px;
+	}
+	.facebook-tag{
+		margin-left: 65px;
+		margin-top: -50px;
+	}
+	.instagram-tag{
+		margin-left: 10px;
+		margin-top: 35px;
+	}
+	.contact-bg{
+		height: 85vh;
+	}
+}
 .combat .col-8{
 	color: #B2B2B2;
 }
