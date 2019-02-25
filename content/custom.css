@@ -28,6 +28,12 @@ html,body{
 .about-page{
 	background-color: black;
 }
+.carousel-item {
+    height: 700px;
+}
+#content{
+	width: 100%;
+}
 .redirect-button{
 	background: url(../img/button.png);
 	background-size: cover;
