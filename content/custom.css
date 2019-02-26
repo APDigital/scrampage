@@ -99,15 +99,25 @@ td:before { content: attr(data-title); }
 .secondRow{
 	display: none;
 }
+.gallery.active{
+	margin-bottom:-250px !important;
+}
+.gallery .popup-overlay{
+	
+    padding: 0 !important;
+}
+.popup-overlay.active{
+	margin-bottom: 40px;
+}
 }
 .gallery-btn{
 	display: table-cell;
 	vertical-align: bottom;
-	background-color: #B64A1A;
-	color: white;
+	background-color: #B64A1A !important;
+	color: white !important;
 }
 .gallery-btn:hover{
-	background-color: #6D2C0F;
+	background-color: #6D2C0F !important;
 }
 .contact-page{
 	color: white;
@@ -120,7 +130,7 @@ td:before { content: attr(data-title); }
 	background-position: right;
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 80vh;
+    height: 76vh;
     background-color: #923107;
 }
 .facebook{
@@ -134,10 +144,11 @@ td:before { content: attr(data-title); }
 }
 #facebook-icon{
 	max-width: 50px;
-	margin-left: 40px;
+	margin-left: 50px;
 }
 .facebook-tag{
 	padding-top: 15px;
+	margin-left: 25px;
 }
 .instagram-tag{
 	margin-left: 90px;
@@ -166,6 +177,45 @@ td:before { content: attr(data-title); }
 		height: 85vh;
 	}
 }
+
 .combat .col-8{
 	color: #B2B2B2;
+}
+.gallery.active{
+	margin-bottom: 280px;
+}
+.gallery .popup-overlay{
+	visibility:hidden;
+  position:absolute;
+  margin-top: 0;
+   background-color: black;
+    padding: 0 300px;
+}
+
+.popup-overlay{
+  visibility:hidden;
+  position:absolute;
+  margin-top: 80px;
+}
+.popup-overlay.active{
+  visibility:visible;
+  text-align:center;
+}
+.popup-content {
+ visibility:hidden;
+}
+.popup-content.active {
+  visibility:visible;
+}
+#page.hidden{
+	visibility: hidden;
+	height: 0;
+}
+.gallery-page.hidden{
+	visibility: hidden;
+	height: 
+}
+.close{
+	margin: 10px;
+	float: right;
 }
