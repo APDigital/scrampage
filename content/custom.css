@@ -72,44 +72,7 @@ td{
 	border-radius: 5px;
 	background-color: #B64A1A;
 }
-@media only screen and (max-width: 800px){
-	table,tbody, tr, td{
-		display: block;
-	}
-	td{
-		border:none;
-		border-bottom : 1px solid #eee;
-		position: relative;
-		padding-left: 50%;
-		white-space: normal;
-		text-align: left;
-		margin: 8px 0;
-	}
-	td:before{
-	position: absolute;
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-		text-align:left;
-		font-weight: bold;
-	}
-td:before { content: attr(data-title); }
-.secondRow{
-	display: none;
-}
-.gallery.active{
-	margin-bottom:-250px !important;
-}
-.gallery .popup-overlay{
-	
-    padding: 0 !important;
-}
-.popup-overlay.active{
-	margin-bottom: 40px;
-}
-}
+
 .gallery-btn{
 	display: table-cell;
 	vertical-align: bottom;
@@ -154,6 +117,49 @@ td:before { content: attr(data-title); }
 	margin-left: 90px;
 	color: white;
 }
+@media only screen and (max-width: 1170px){
+	.gallery .popup-overlay{
+    padding: 0 150px !important;
+}
+@media only screen and (max-width: 800px){
+	table,tbody, tr, td{
+		display: block;
+	}
+	td{
+		border:none;
+		border-bottom : 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+		white-space: normal;
+		text-align: left;
+		margin: 8px 0;
+	}
+	td:before{
+	position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+td:before { content: attr(data-title); }
+.secondRow{
+	display: none;
+}
+.gallery.active{
+	margin-bottom:-250px !important;
+}
+.gallery .popup-overlay{
+	
+    padding: 0 !important;
+}
+.popup-overlay.active{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+}
 @media only screen and (max-width: 575px){
 	.contact-page{
 		padding: 0;
@@ -176,8 +182,12 @@ td:before { content: attr(data-title); }
 	.contact-bg{
 		height: 85vh;
 	}
+	.carousel {
+ 	height: 65vh;
+}
 }
 
+}
 .combat .col-8{
 	color: #B2B2B2;
 }
