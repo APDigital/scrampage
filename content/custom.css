@@ -242,7 +242,13 @@ td:before { content: attr(data-title); }
 }
 .superSmTable{
 	visibility: visible;
-	margin-top: -2900px;
+	margin-top: -2500px;
+}
+.galleryTable img{
+	width: 180px;
+}
+.galleryTable td{
+	height: 180px;
 }
 }
 /*@media only screen and (max-width: 575px){
