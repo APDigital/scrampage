@@ -1,0 +1,236 @@
+
+html,body{
+	background-color: black !important;
+	overflow-x:hidden;
+
+}
+.title{
+	margin-top: 80px; 
+	color: white;
+}
+.text-center {
+	text-align: center;
+}
+.nav-link{
+	color: white !important;
+}
+.sub-heading{
+	color: #B64A1A;
+}
+.home-page{
+	background: url(../img/Hero.png);
+	background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 150px 0;
+    height: all;
+}
+.about-page{
+	background-color: black;
+}
+
+.redirect-button{
+	background: url(../img/button.png);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border: none;
+	margin: 50px 0;
+	color: white;
+}
+.table{
+	border: none;
+	border-collapse: separate;
+	border-spacing: 15px;
+	margin-top: 40px;
+}
+.table td{
+	border: none!important;
+}
+.gallery-page{
+	text-align: center;
+    background-color: #923107;
+    padding: 30px;
+}
+.gallery-bg{
+	background: url(../img/Gallery-bg.jpg);
+	background-position: top;
+	background-size: cover;
+	width: 100%;
+	height: 20vh;
+}
+.carousel{
+	width: 80%;
+	margin: auto;
+	background: none;
+}
+.carousel-item {
+    height: 700px;
+}
+.carousel-item img{
+	max-height: 600px;
+
+}
+td{
+	height: 180px;
+	border-radius: 5px;
+	background-color: #B64A1A;
+}
+
+.gallery-btn{
+	display: table-cell;
+	vertical-align: bottom;
+	background-color: #B64A1A !important;
+	color: white !important;
+}
+.gallery-btn:hover{
+	background-color: #6D2C0F !important;
+}
+.contact-page{
+	color: white;
+	padding: 50px 0;
+	padding-top: 400px;
+
+}
+.contact-bg{
+	background: url(../img/Contact-bg.jpg);
+	background-position: right;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+    background-color: #923107;
+}
+.facebook{
+	margin-left: 35px;
+	color: white;
+	text-decoration: none;
+}
+.facebook:hover{
+	color: white;
+	text-decoration: underline;
+}
+#facebook-icon{
+	max-width: 50px;
+	margin-left: 50px;
+}
+.facebook-tag{
+	padding-top: 15px;
+	margin-left: 25px;
+}
+.instagram-tag{
+	margin-left: 90px;
+	color: white;
+}
+@media only screen and (max-width: 1170px){
+	.gallery .popup-overlay{
+    padding: 0 150px !important;
+}
+@media only screen and (max-width: 800px){
+	table,tbody, tr, td{
+		display: block;
+	}
+	td{
+		border:none;
+		border-bottom : 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+		white-space: normal;
+		text-align: left;
+		margin: 8px 0;
+	}
+	td:before{
+	position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+td:before { content: attr(data-title); }
+.secondRow{
+	display: none;
+}
+.gallery.active{
+	margin-bottom:-250px !important;
+}
+.gallery .popup-overlay{
+	
+    padding: 0 !important;
+}
+.popup-overlay.active{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+}
+@media only screen and (max-width: 575px){
+	.contact-page{
+		padding: 0;
+		padding-top: 500px;
+	}
+	.facebook{
+		margin-left: 5px;
+	}
+	#facebook-icon{
+		margin-left: 5px;
+	}
+	.facebook-tag{
+		margin-left: 65px;
+		margin-top: -50px;
+	}
+	.instagram-tag{
+		margin-left: 10px;
+		margin-top: 35px;
+	}
+	.contact-bg{
+		height: 85vh;
+	}
+	.carousel {
+ 	height: 65vh;
+}
+}
+
+}
+.combat .col-8{
+	color: #B2B2B2;
+}
+.gallery.active{
+	margin-bottom: 280px;
+}
+.gallery .popup-overlay{
+	visibility:hidden;
+  position:absolute;
+  margin-top: 0;
+   background-color: black;
+    padding: 0 300px;
+}
+
+.popup-overlay{
+  visibility:hidden;
+  position:absolute;
+  margin-top: 80px;
+}
+.popup-overlay.active{
+  visibility:visible;
+  text-align:center;
+}
+.popup-content {
+ visibility:hidden;
+}
+.popup-content.active {
+  visibility:visible;
+}
+#page.hidden{
+	visibility: hidden;
+	height: 0;
+}
+.gallery-page.hidden{
+	visibility: hidden;
+	height: 
+}
+.close{
+	margin: 10px;
+	float: right;
+}
