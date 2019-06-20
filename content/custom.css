@@ -61,24 +61,26 @@ html,body{
 	height: 20vh;
 }
 .carousel{
-	width: 80%;
 	margin: auto;
+	max-width: 700px;
 	background: none;
 }
-.carousel-item {
+/*.carousel-item {
     height: 700px;
-}
+}*/
 .carousel-item img{
 	max-height: 600px;
-
+	width: 600px;
+	border-radius: 10px;
 }
 td{
 	height: 180px;
 	border-radius: 5px;
-	background-color: #B64A1A;
+	/*background-color: #B64A1A;*/
 }
 
 .gallery-btn{
+	margin-top: 30px;
 	display: table-cell;
 	vertical-align: bottom;
 	background-color: #B64A1A !important;
@@ -122,11 +124,24 @@ td{
 	margin-left: 90px;
 	color: white;
 }
-@media only screen and (max-width: 1170px){
-	.gallery .popup-overlay{
-    padding: 0 150px !important;
+/*.galleryTitle{
+	background-image: url(../img/Gallery/img17.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}*/
+.galleryTitle h2{
+	padding: 50px 0;
 }
-@media only screen and (max-width: 800px){
+.galleryTable img{
+	width: 200px;
+	height: 100%;
+	border-radius: 10px;
+}
+.galleryTable td{
+	height: 200px;
+}
+/*@media only screen and (max-width: 800px){
 	table,tbody, tr, td{
 		display: block;
 	}
@@ -164,7 +179,7 @@ td:before { content: attr(data-title); }
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
-}
+}*/
 @media only screen and (max-width: 575px){
 	.contact-page{
 		padding: 0;
@@ -196,7 +211,11 @@ td:before { content: attr(data-title); }
 .combat .col-8{
 	color: #B2B2B2;
 }
-.gallery.active{
+.combat img{
+	width: 200px;
+	border-radius: 10px;
+}
+/*.gallery.active{
 	margin-bottom: 280px;
 }
 .gallery .popup-overlay{
@@ -221,7 +240,7 @@ td:before { content: attr(data-title); }
 }
 .popup-content.active {
   visibility:visible;
-}
+}*/
 #page.hidden{
 	visibility: hidden;
 	height: 0;
