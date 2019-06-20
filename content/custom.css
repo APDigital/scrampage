@@ -204,6 +204,27 @@ td:before { content: attr(data-title); }
 .lgScreenText{
 	margin-top: -160px;
 }
+.LgGallery{
+	margin-bottom: -1800px;
+}
+.smGallery{
+	visibility: hidden;
+	margin-top: -4300px;
+}
+.superSmTable{
+	visibility: hidden;
+	margin-top: -4100px;
+}
+@media only screen and (max-width: 1230px){
+.smGallery{
+	visibility: visible;
+	margin-top: -1800px;
+	width: 100%;
+}
+.LgGallery{
+	visibility: hidden;
+}
+	}
 @media only screen and (max-width: 767px){
 
 	.combat .hidden{
@@ -216,8 +237,15 @@ td:before { content: attr(data-title); }
 	.lgScreenText{
 	margin-top: 0;
 }
+.smGallery{
+	visibility: hidden;
 }
-@media only screen and (max-width: 575px){
+.superSmTable{
+	visibility: visible;
+	margin-top: -2900px;
+}
+}
+/*@media only screen and (max-width: 575px){
 	.contact-page{
 		padding: 0;
 		padding-top: 500px;
@@ -241,8 +269,7 @@ td:before { content: attr(data-title); }
 	}
 	.carousel {
  	height: 65vh;
-}
-}
+}*/
 
 /*.gallery.active{
 	margin-bottom: 280px;
