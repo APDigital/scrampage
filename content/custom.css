@@ -1,322 +1,39 @@
+html,
+body {
+    overflow-x: hidden;
+}
 
-html,body{
-	background-color: black !important;
-	overflow-x:hidden;
+main {
+    background-color: #2a0b07;
+}
 
+.navbar-brand {
+    padding-left: 10px;
 }
-.title{
-	margin-top: 80px; 
-	color: white;
+
+.nav-link,
+.nav-item {
+    color: white !important;
 }
-.text-center {
-	text-align: center;
+
+.nav-item p {
+    padding-top: 20px;
 }
-.nav-link{
-	color: white !important;
-}
-.sub-heading{
-	color: #B64A1A;
-}
-.home-page{
-	background: url(../img/Hero.png);
-	background-position: bottom;
+
+.home-page {
+    background: url(../img/Hero.png);
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 300px 0;
     color: white;
-    padding: 150px 0;
-    height: all;
-}
-.about-page{
-	background-color: black;
+    margin-top: 80px;
 }
 
-.redirect-button{
-	background: url(../img/button.png);
-	background-size: cover;
-	width: 200px;
-	height: 200px;
-	border: none;
-	margin: 50px 0;
-	color: white;
-}
-.table{
-	border: none;
-	border-collapse: separate;
-	border-spacing: 15px;
-	margin-top: 40px;
-}
-.table td{
-	border: none!important;
-}
-.gallery-page{
-	text-align: center;
-    background-color: #923107;
-    padding: 30px;
-}
-.gallery-bg{
-	background: url(../img/Gallery-bg.jpg);
-	background-position: top;
-	background-size: cover;
-	width: 100%;
-	height: 20vh;
-}
-.carousel{
-	margin: auto;
-	max-width: 700px;
-	background: none;
-}
-/*.carousel-item {
-    height: 700px;
-}*/
-.carousel-item img{
-	max-height: 600px;
-	width: 600px;
-	border-radius: 10px;
-}
-td{
-	height: 180px;
-	border-radius: 5px;
-	/*background-color: #B64A1A;*/
+.card {
+    margin: 40px;
 }
 
-.gallery-btn{
-	margin-top: 30px;
-	display: table-cell;
-	vertical-align: bottom;
-	background-color: #B64A1A !important;
-	color: white !important;
-}
-.gallery-btn:hover{
-	background-color: #6D2C0F !important;
-}
-.contact-page{
-	color: white;
-	padding: 50px 0;
-	padding-top: 400px;
-
-}
-.contact-bg{
-	background: url(../img/Contact-bg.jpg);
-	background-position: right;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    
-    background-color: #923107;
-}
-.facebook{
-	margin-left: 35px;
-	color: white;
-	text-decoration: none;
-}
-.facebook:hover{
-	color: white;
-	text-decoration: underline;
-}
-#facebook-icon{
-	max-width: 50px;
-	margin-left: 50px;
-}
-.facebook-tag{
-	padding-top: 15px;
-	margin-left: 25px;
-}
-.instagram-tag{
-	margin-left: 90px;
-	color: white;
-}
-/*.galleryTitle{
-	background-image: url(../img/Gallery/img17.jpg);
-	background-position: center;
-	background-size: cover;
-	width: 100%;
-}*/
-.galleryTitle h2{
-	padding: 50px 0;
-}
-.galleryTable img{
-	width: 200px;
-	height: 100%;
-	border-radius: 10px;
-}
-.galleryTable td{
-	height: 200px;
-	text-align: center;
-}
-/*@media only screen and (max-width: 800px){
-	table,tbody, tr, td{
-		display: block;
-	}
-	td{
-		border:none;
-		border-bottom : 1px solid #eee;
-		position: relative;
-		padding-left: 50%;
-		white-space: normal;
-		text-align: left;
-		margin: 8px 0;
-	}
-	td:before{
-	position: absolute;
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-		text-align:left;
-		font-weight: bold;
-	}
-td:before { content: attr(data-title); }
-.secondRow{
-	display: none;
-}
-.gallery.active{
-	margin-bottom:-250px !important;
-}
-.gallery .popup-overlay{
-	
-    padding: 0 !important;
-}
-.popup-overlay.active{
-	margin-bottom: 40px;
-	margin-top: 40px;
-}
-}*/
-
-
-}
-.combat .col-8{
-	color: #B2B2B2;
-}
-.combat .col-sm-12{
- text-align: center;
-}
-.combat img{
-	width: 200px;
-	border-radius: 10px;
-	
-	margin: 10px;
-}
-.combat .hidden{
-	visibility: hidden;
-}
-.lgScreen{
-	margin-top: -170px;
-}
-.lgScreenText{
-	margin-top: -160px;
-}
-.LgGallery{
-	margin-bottom: -1800px;
-}
-.smGallery{
-	visibility: hidden;
-	margin-top: -4300px;
-}
-.superSmTable{
-	visibility: hidden;
-	margin-top: -4100px;
-}
-@media only screen and (max-width: 1230px){
-.smGallery{
-	visibility: visible;
-	margin-top: -1800px;
-	width: 100%;
-}
-.LgGallery{
-	visibility: hidden;
-}
-	}
-@media only screen and (max-width: 767px){
-
-	.combat .hidden{
-		visibility: visible;
-		margin-bottom: 40px;
-	}
-	.combat .lgScreen{
-		visibility: hidden;
-	}
-	.lgScreenText{
-	margin-top: 0;
-}
-.smGallery{
-	visibility: hidden;
-}
-.superSmTable{
-	visibility: visible;
-	margin-top: -2550px;
-}
-.galleryTable img{
-	width: 180px;
-	height: 180px;
-}
-.galleryTable td{
-	width: 180px !important;
-}
-.table{
-	border-spacing: 0;
-}
-}
-/*@media only screen and (max-width: 575px){
-	.contact-page{
-		padding: 0;
-		padding-top: 500px;
-	}
-	.facebook{
-		margin-left: 5px;
-	}
-	#facebook-icon{
-		margin-left: 5px;
-	}
-	.facebook-tag{
-		margin-left: 65px;
-		margin-top: -50px;
-	}
-	.instagram-tag{
-		margin-left: 10px;
-		margin-top: 35px;
-	}
-	.contact-bg{
-		height: 85vh;
-	}
-	.carousel {
- 	height: 65vh;
-}*/
-
-/*.gallery.active{
-	margin-bottom: 280px;
-}
-.gallery .popup-overlay{
-	visibility:hidden;
-  position:absolute;
-  margin-top: 0;
-   background-color: black;
-    padding: 0 300px;
-}
-
-.popup-overlay{
-  visibility:hidden;
-  position:absolute;
-  margin-top: 80px;
-}
-.popup-overlay.active{
-  visibility:visible;
-  text-align:center;
-}
-.popup-content {
- visibility:hidden;
-}
-.popup-content.active {
-  visibility:visible;
-}*/
-#page.hidden{
-	visibility: hidden;
-	height: 0;
-}
-.gallery-page.hidden{
-	visibility: hidden;
-	height: 
-}
-.close{
-	margin: 10px;
-	float: right;
+#facebook-icon {
+    width: 50px;
 }
