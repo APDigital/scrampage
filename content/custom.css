@@ -1,39 +1,49 @@
-html,
-body {
-    overflow-x: hidden;
-}
-
-main {
-    background-color: #2a0b07;
-}
-
-.navbar-brand {
-    padding-left: 10px;
-}
-
-.nav-link,
-.nav-item {
-    color: white !important;
-}
-
-.nav-item p {
-    padding-top: 20px;
-}
-
-.home-page {
-    background: url(../img/Hero.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 300px 0;
-    color: white;
-    margin-top: 80px;
-}
-
-.card {
-    margin: 40px;
-}
-
-#facebook-icon {
-    width: 50px;
-}
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    
+    main {
+        background-color: #2a0b07;
+    }
+    
+    .navbar-brand {
+        padding-left: 10px;
+    }
+    
+    .nav-link,
+    .nav-item {
+        color: white !important;
+    }
+    
+    .nav-item p {
+        padding-top: 20px;
+    }
+    
+    .home-page {
+        background: url(../img/Hero.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 300px 0;
+        color: white;
+        margin-top: 80px;
+    }
+    
+    .card {
+        margin: 40px;
+        color: white;
+    }
+    
+    #card-content div {
+        margin: 10px 0;
+    }
+    
+    #card-content img {
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    #facebook-icon {
+        width: 50px;
+    }
