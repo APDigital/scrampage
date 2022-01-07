@@ -1,0 +1,18 @@
+.title {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.about {
+    margin: 5% 0;
+}
